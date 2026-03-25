@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 
 # Load data
-data = pd.read_csv("data/housing.csv")
+data = pd.read_csv("dataset/Housing.csv")
 
 # Convert categorical to numeric
 data = pd.get_dummies(data, drop_first=True)
